@@ -1,0 +1,23 @@
+@import '../../Styles/scss/Master';
+
+.navBar {
+  width: 100%;
+  height: 60px;
+  background: $colour-black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__list {
+    padding: 0 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__items {
+      @include font;
+    }
+  }
+}
+

@@ -1,7 +1,8 @@
-// Fonts 
+@import './Fonts';
+@import './Mixins';
+@import './Variables';
 
-@font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url('../../Assets/Raleway/Raleway-Regular.ttf') format('ttf');
+* {
+  padding: 0;
+  margin: 0;
 }
-
