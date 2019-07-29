@@ -1,0 +1,38 @@
+@import "../../Styles/scss/Master";
+
+.projectContainer {
+  background: $colour-offwhite;
+  @include font-black;
+  
+}
+
+.project {
+  &__header {
+    padding: 16px 16px;
+    font-size: 1.5rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    &__imageBox {
+      display: flex;
+      justify-content: center;
+      background: #0048e4;
+      margin: 0 auto;
+      height: 300px;
+      width: 290px;
+
+      &--image {
+        height: 120px;
+        margin-top: 75px;
+      }
+    }
+  }
+
+  &__description {
+    padding: 16px;
+    font-size: 14px;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Hero.scss";
-import headshot from "../../Assets/Images/headshot.jpg";
+import headshot from "../../Assets/Images/joshua-headshot.jpg";
 
 export class Hero extends Component {
   render() {
@@ -12,10 +12,9 @@ export class Hero extends Component {
             <h1 className="hero__content__text--name">Joshua Taguicana</h1>
             <p className="hero__content__text--bio">
               I am new web developer dedicated to building creative websites and
-              looking to continue to learn and apply new skills in a work environment. 
-              Previously, I worked in accounting, and gained valuable organizational, time-management,
-              and communication skills to creatively solve problems both
-              individually and as a team. Check out some of my projects below! 
+              continueing to learn new skills in web development.
+              
+              Check out some of my projects below! 
             </p>
           </div>
         </div>

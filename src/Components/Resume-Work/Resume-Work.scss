@@ -1,0 +1,35 @@
+@import "../../Styles/scss/Master";
+
+.work {
+  padding: 0 16px;
+
+  &__header {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+  }
+
+  &__block {
+    margin-bottom: 16px;
+
+    &__title {
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    &__date {
+      text-transform: uppercase;
+      color: $colour-grey;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        padding-bottom: 8px;
+        font-size: 14px;
+      }
+    }
+  }
+}

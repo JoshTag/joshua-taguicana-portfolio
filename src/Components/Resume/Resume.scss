@@ -1,0 +1,11 @@
+@import '../../Styles/scss/Master';
+
+.resume {
+  background: $colour-white;
+  @include font-black;
+
+  &__header {
+    font-size: 2rem;
+    padding: 16px 16px;
+  }
+}

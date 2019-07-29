@@ -2,7 +2,8 @@
 
 .hero {
   background: $colour-black;
-  height: 600px;
+  height: 575px;
+  @include font-white;
 
   &__content {
     padding: 65px 16px 0;
@@ -21,14 +22,12 @@
     &__text {
       
       &--name {
-        @include font;
         font-size: 2rem;
         text-align: center;
         margin-bottom: 15px;
       }
 
       &--bio {
-        @include font;
         font-size: 14px;
         text-align: center;
         padding: 0 16px;

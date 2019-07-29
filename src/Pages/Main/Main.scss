@@ -1,0 +1,11 @@
+@import '../../Styles/scss/Master';
+
+.projects {
+
+  &__header {
+    font-family: $font-stack;
+    color: $colour-black;
+    padding: 24px 16px;
+    font-size: 2rem;
+  }
+}

@@ -16,7 +16,12 @@
   }
 }
 
-@mixin font {
+@mixin font-white {
   font-family: $font-stack;
   color: $colour-white;
+}
+
+@mixin font-black {
+  font-family: $font-stack;
+  color: $colour-black;
 }
