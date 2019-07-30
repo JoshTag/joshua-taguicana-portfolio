@@ -1,20 +1,31 @@
 @import '../../Styles/scss/Master';
 
 .skillsContainer {
-  padding: 0 16px;
+  padding: 0 16px 16px;
+  background: $colour-black;
 
   &__header {
     font-size: 1.5rem;
+    color: $colour-white;
+    padding: 16px 0;
   }
 
   &__icons {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    justify-items: center;
     color: antiquewhite;
 
     &--img{
-      height: 80px;
+      height: 70px;
+      width: 70px;
+      padding: 5px;
+      
     }
   }
+}
+
+svg {
+  fill: white;
 }

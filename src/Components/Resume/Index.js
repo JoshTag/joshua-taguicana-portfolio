@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ResumeWork from '../Resume-Work/Resume-Work';
-import ResumeEducation from '../Resume-Education/ResumeEducation';
-import Skills from '../Skills/Skills'
+import ResumeWork from '../Resume-Work/Index';
+import ResumeEducation from '../Resume-Education/Index';
+import Skills from '../Skills/Index'
 import "./Resume.scss";
 
 export class Resume extends Component {

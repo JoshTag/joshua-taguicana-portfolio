@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Hero from '../../Components/Hero/Hero';
-import WoW from '../../Components/Project-WoW/ProjectWoW';
-import Resume from '../../Components/Resume/Resume'
+import Hero from '../../Components/Hero/Index';
+import WoW from '../../Components/Project-WoW/Index';
+import Resume from '../../Components/Resume/Index';
+import Footer from '../../Components/Footer/Index'
 import './Main.scss'
 
 export class Main extends Component {
@@ -14,6 +15,7 @@ export class Main extends Component {
           <WoW />
         </section>
         <Resume />
+        <Footer />
       </>
     )
   }
