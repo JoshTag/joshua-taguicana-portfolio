@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ResumeEducation.scss';
+import './Education.scss';
 
 export class ResumeEducation extends Component {
   render() {

@@ -13,7 +13,6 @@ export class Hero extends Component {
             <p className="hero__content__text--bio">
               I am new web developer dedicated to building creative websites and
               continueing to learn new skills in web development.
-              
               Check out some of my projects below! 
             </p>
           </div>
