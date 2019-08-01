@@ -1,4 +1,10 @@
 [build]
-base = "myapp/"
+base = "client/"
 publish = "client/build/"
-command = "yarn build"
+command = "npm install && npm run build
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
