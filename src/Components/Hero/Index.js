@@ -8,7 +8,7 @@ export class Hero extends Component {
       <section className="hero">
         <div className="hero__content">
           <img className="hero__content__img" src={headshot} alt="Headshot" />
-          <div className="hero_content__text">
+          <div className="hero__content__text">
             <h1 className="hero__content__text--name">Joshua Taguicana</h1>
             <p className="hero__content__text--bio">
               I am new web developer dedicated to building creative websites and

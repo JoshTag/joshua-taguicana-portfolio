@@ -27,6 +27,15 @@
   }
 }
 
+// svg > path:hover {
+//   fill: $colour-black;
+// }
+
 svg {
-  fill: $colour-black;
+  filter: grayscale(100%) contrast(100%);
+}
+
+svg:hover {
+  filter: none;
+  transition: .3s;
 }
