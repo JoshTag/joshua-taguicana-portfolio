@@ -12,11 +12,11 @@ export class Main extends Component {
       <>
         <Hero />
         <section className="projects">
-          <h2 className="projects__header">Projects</h2>
+          <h2 className="projects__header" id="projects">Projects</h2>
           <WoW />
         </section>
-        <Education />
-        <Skills />
+        <Skills id="skills"/>
+        <Education id="education"/>
         <Footer />
       </>
     )

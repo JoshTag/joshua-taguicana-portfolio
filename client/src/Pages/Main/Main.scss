@@ -8,5 +8,17 @@
     padding: 24px 16px;
     font-size: 2rem;
     background: $colour-offwhite;
+
+    @include tablet {
+      padding: 24px 60px;
+    }
+
+    @include laptop {
+      padding: 40px 100px;
+    }
+
+    @include desktop {
+      padding: 40px 160px;
+    }
   }
 }

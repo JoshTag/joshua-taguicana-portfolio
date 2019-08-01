@@ -2,11 +2,31 @@
 
 .footerContainer {
   background-color: $colour-black;
-  height: 400px;
+  height: 250px;
   @include font-white;
   font-size: 1.5rem;
   padding: 0 16px;
   margin-top: 24px;
+
+  @include tablet {
+    margin-top: 60px;
+  }
+
+  ul {
+    list-style: none;
+    padding-top: 16px;
+
+    li {
+      text-align: center;
+      padding-top: 8px;
+      
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
 
   &__header {
     padding: 24px 0 16px;

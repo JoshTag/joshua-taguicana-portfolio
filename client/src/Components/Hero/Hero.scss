@@ -9,6 +9,14 @@
     height: 650px;
   }
 
+  @include laptop {
+    height: 740px;
+  }
+
+  @include desktop {
+    height: 760px;
+  }
+
   &__content {
     padding: 65px 16px 0;
     display: flex;
@@ -21,6 +29,18 @@
       justify-content: space-between;
     }
 
+    @include laptop {
+      width: 900px;
+      padding: 180px 0 0;
+      margin: 0 auto;
+    }
+
+    @include desktop {
+      width: 920px;
+      padding: 200px 0 0;
+      margin: 0 auto;
+    }
+
     &__img {
       object-fit: cover;
       height: 150px;
@@ -31,6 +51,12 @@
       @include tablet {
         height: 190px;
         width: 190px;
+        margin: 0;
+      }
+
+      @include tablet {
+        height: 230px;
+        width: 230px;
         margin: 0;
       }
     }
@@ -52,6 +78,10 @@
         @include tablet {
           font-size: 3rem;
         }
+
+        @include laptop {
+          font-size: 3.5rem;
+        }
       }
 
       &--bio {
@@ -61,6 +91,10 @@
 
         @include tablet {
           font-size: 16px
+        }
+
+        @include laptop {
+          font-size: 24px
         }
       }
     }

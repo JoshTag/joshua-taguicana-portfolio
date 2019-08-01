@@ -14,10 +14,18 @@
     justify-content: space-between;
 
     &__items {
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
       @include font-white;
 
       @include tablet {
         font-size: 18px;
+      }
+      @include laptop {
+        font-size: 20px;
       }
     }
   }

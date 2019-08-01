@@ -4,7 +4,7 @@
   }
 }
 
-@mixin laptop-small {
+@mixin laptop {
   @media (min-width: 64rem) {
       @content;
   }

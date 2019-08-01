@@ -5,10 +5,26 @@
   background: #ffffff;
   @include font-black;
 
+  @include tablet {
+    padding: 24px 60px 16px;
+  }
+
+  @include laptop {
+    padding: 24px 100px 16px;
+  }
+
+  @include laptop {
+    padding: 24px 160px 16px;
+  }
+
   &__header {
     font-size: 2rem;
     color: $colour-black;
     padding-bottom: 16px;
+
+    @include tablet {
+      padding-bottom: 34px;
+    }
   }
 
   &__icons {
@@ -18,11 +34,31 @@
     justify-items: center;
     color: antiquewhite;
 
+    @include tablet {
+      width: 525px;
+      margin: 0 auto;
+    }
+    @include desktop {
+      width: 850px;
+      margin: 0 auto;
+    }
+
     &--img{
       height: 70px;
       width: 70px;
       padding: 5px;
-      
+
+      @include tablet {
+        height: 110px;
+        width: 110px;
+        padding: 15px;
+      }
+
+      @include desktop {
+        height: 130px;
+        width: 130px;
+        padding: 15px;
+      }
     }
   }
 }

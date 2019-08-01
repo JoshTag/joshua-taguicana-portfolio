@@ -5,12 +5,20 @@ export class Nav extends Component {
   render() {
     return (
       <nav className="navBar">
-          <ul className="navBar__list">
-            <li className="navBar__list__items">About</li>
-            <li className="navBar__list__items">Skills</li>
-            <li className="navBar__list__items">Projects</li>
-            <li className="navBar__list__items">Contact</li>
-          </ul>
+        <ul className="navBar__list">
+          <li className="navBar__list__items">
+            <a href="#about">About</a>
+          </li>
+          <li className="navBar__list__items">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="navBar__list__items">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="navBar__list__items">
+            <a href="#education">Education</a>
+          </li>
+        </ul>
       </nav>
     );
   }

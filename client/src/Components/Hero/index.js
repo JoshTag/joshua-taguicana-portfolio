@@ -5,7 +5,7 @@ import headshot from "../../Assets/Images/joshua-headshot.jpg";
 export class Hero extends Component {
   render() {
     return (
-      <section className="hero">
+      <section id="about" className="hero">
         <div className="hero__content">
           <img className="hero__content__img" src={headshot} alt="Headshot" />
           <div className="hero__content__text">

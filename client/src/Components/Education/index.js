@@ -4,7 +4,7 @@ import './Education.scss';
 export class ResumeEducation extends Component {
   render() {
     return (
-      <div className="education">
+      <div className="education" id="education">
         <h3 className="education__header">Education</h3>
         <div className="education__block">
           <h4 className="education__block__title">BrainStation</h4>
