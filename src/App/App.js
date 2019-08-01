@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Main from "../Pages/Main/Main";
-import Nav from "../Components/Nav";
+import Nav from "../Components/Nav/index";
 import Headroom from "react-headroom";
 import "./App.scss";
 
