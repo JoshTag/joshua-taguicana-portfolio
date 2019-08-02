@@ -6,6 +6,9 @@ export class Hero extends Component {
   render() {
     return (
       <section id="about" className="hero">
+        <div id="stars" />
+        <div id="stars2" />
+        <div id="stars3" />
         <div className="hero__content">
           <img className="hero__content__img" src={headshot} alt="Headshot" />
           <div className="hero__content__text">

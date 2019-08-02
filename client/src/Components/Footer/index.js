@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import "./Footer.scss";
-import resume from '../../Assets/Resume/Joshua_Taguicana_Resume.pdf'
+import resume from "../../Assets/Resume/Joshua_Taguicana_Resume.pdf";
 
 export class Footer extends Component {
   render() {
     return (
       <footer className="footerContainer">
+        <div id="starsF" />
+        <div id="starsF2" />
+        <div id="starsF3" />
         {/* <h2 className="footerContainer__header">Contact Me</h2>
         <form className="footerContainer__form">
           <input className="footerContainer__form--name" placeholder="Name" />
@@ -20,10 +23,17 @@ export class Footer extends Component {
             <a href="https://github.com/JoshTag">GitHub</a>
           </li>
           <li>
-            <a href={resume} target="_blank">Resume</a>
+            <a href={resume} target="_blank">
+              Resume
+            </a>
           </li>
           <li>
-          <a class="contact-info__email" href="mailto:joshtaguicana@gmail.com">joshtaguicana@gmail.com</a>
+            <a
+              className="contact-info__email"
+              href="mailto:joshtaguicana@gmail.com"
+            >
+              joshtaguicana@gmail.com
+            </a>
           </li>
         </ul>
       </footer>
