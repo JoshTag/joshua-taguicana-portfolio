@@ -16,8 +16,8 @@ import vue from "../../Assets/Dev Icons/vuejs/vuejs-original-wordmark.svg";
 
 const parallaxCSS = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "75vh",
     endOffset: 950,
     properties: [
@@ -35,15 +35,15 @@ const parallaxCSS = [
         startValue: 0,
         endValue: -200,
         property: "translateY"
-      },
+      }
     ]
   }
 ];
 
 const parallaxGit = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "80vh",
     endOffset: 700,
     properties: [
@@ -68,8 +68,8 @@ const parallaxGit = [
 
 const parallaxHTML = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "78vh",
     endOffset: 750,
     properties: [
@@ -99,8 +99,8 @@ const parallaxHTML = [
 
 const parallaxJS = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "75vh",
     endOffset: "100vh",
     properties: [
@@ -130,8 +130,8 @@ const parallaxJS = [
 
 const parallaxMongo = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "50vh",
     endOffset: "60vh",
     properties: [
@@ -143,8 +143,8 @@ const parallaxMongo = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "60vh",
     endOffset: "70vh",
     properties: [
@@ -166,8 +166,8 @@ const parallaxMongo = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "65vh",
     endOffset: "110vh",
     properties: [
@@ -187,8 +187,8 @@ const parallaxMongo = [
 
 const parallaxMySQL = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "60vh",
     endOffset: "100vh",
     properties: [
@@ -210,20 +210,18 @@ const parallaxMySQL = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "65vh",
     endOffset: "80vh",
-    properties: [
-
-    ]
+    properties: []
   }
 ];
 
 const parallaxNode = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "70vh",
     endOffset: 900,
     properties: [
@@ -253,8 +251,8 @@ const parallaxNode = [
 
 const parallaxReact = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "45vh",
     endOffset: "100vh",
     properties: [
@@ -284,8 +282,8 @@ const parallaxReact = [
 
 const parallaxSass = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "65vh",
     endOffset: "100vh",
     properties: [
@@ -302,8 +300,8 @@ const parallaxSass = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "70vh",
     endOffset: "100vh",
     properties: [
@@ -318,13 +316,13 @@ const parallaxSass = [
         property: "translateX"
       }
     ]
-  },
+  }
 ];
 
 const parallaxVue = [
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "60vh",
     endOffset: "70vh",
     properties: [
@@ -336,8 +334,8 @@ const parallaxVue = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "60vh",
     endOffset: "120vh",
     properties: [
@@ -350,12 +348,12 @@ const parallaxVue = [
         startValue: 0,
         endValue: 30,
         property: "translateX"
-      },
+      }
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "70vh",
     endOffset: "80vh",
     properties: [
@@ -367,8 +365,8 @@ const parallaxVue = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "80vh",
     endOffset: "90vh",
     properties: [
@@ -380,8 +378,8 @@ const parallaxVue = [
     ]
   },
   {
-    start: 'self',
-    end: 'self',
+    start: "self",
+    end: "self",
     startOffset: "90vh",
     endOffset: "100vh",
     properties: [
@@ -402,43 +400,43 @@ export class Skills extends Component {
 
         <div className="skillsContainer__icons">
           <Plx parallaxData={parallaxCSS}>
-            <img className="skillsContainer__icons--img" src={css} />
+            <img className="skillsContainer__icons--img" src={css} alt="CSS" />
           </Plx>
 
           <Plx parallaxData={parallaxHTML}>
-            <img className="skillsContainer__icons--img" src={html} />
+            <img className="skillsContainer__icons--img" src={html} alt="HTML" />
           </Plx>
 
           <Plx parallaxData={parallaxGit}>
-            <img className="skillsContainer__icons--img" src={git} />
+            <img className="skillsContainer__icons--img" src={git} alt="Git" />
           </Plx>
 
           <Plx parallaxData={parallaxJS}>
-            <img className="skillsContainer__icons--img" src={js} />
+            <img className="skillsContainer__icons--img" src={js} alt="JaaScript" />
           </Plx>
 
           <Plx parallaxData={parallaxNode}>
-            <img className="skillsContainer__icons--img" src={node} />
+            <img className="skillsContainer__icons--img" src={node} alt="Node" />
           </Plx>
 
           <Plx parallaxData={parallaxMySQL}>
-            <img className="skillsContainer__icons--img" src={mySQL} />
+            <img className="skillsContainer__icons--img" src={mySQL}alt="mySQL"  />
           </Plx>
 
           <Plx parallaxData={parallaxMongo}>
-            <img className="skillsContainer__icons--img" src={mongo} />
+            <img className="skillsContainer__icons--img" src={mongo} alt="MongoDB" />
           </Plx>
 
           <Plx parallaxData={parallaxReact}>
-            <img className="skillsContainer__icons--img" src={react} />
+            <img className="skillsContainer__icons--img" src={react} alt="React" />
           </Plx>
 
           <Plx parallaxData={parallaxSass}>
-            <img className="skillsContainer__icons--img" src={scss} />
+            <img className="skillsContainer__icons--img" src={scss} alt="SASS" />
           </Plx>
 
           <Plx parallaxData={parallaxVue}>
-            <img className="skillsContainer__icons--img" src={vue} />
+            <img className="skillsContainer__icons--img" src={vue} alt="Vue" />
           </Plx>
         </div>
       </div>
