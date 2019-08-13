@@ -18,7 +18,7 @@ const parallaxCSS = [
   {
     start: "self",
     end: "self",
-    startOffset: "75vh",
+    startOffset: "65vh",
     endOffset: 950,
     properties: [
       {
@@ -45,22 +45,27 @@ const parallaxGit = [
     start: "self",
     end: "self",
     startOffset: "80vh",
-    endOffset: 700,
+    endOffset: 900,
     properties: [
       {
         startValue: 0,
-        endValue: -250,
+        endValue: -210,
         property: "rotate"
       },
       {
         startValue: 0,
-        endValue: -220,
+        endValue: -200,
         property: "translateY"
       },
       {
         startValue: 1,
         endValue: 1,
         property: "scale"
+      },
+      {
+        startValue: 0,
+        endValue: -60,
+        property: "skewX"
       }
     ]
   }
@@ -71,26 +76,26 @@ const parallaxHTML = [
     start: "self",
     end: "self",
     startOffset: "78vh",
-    endOffset: 750,
+    endOffset: 850,
     properties: [
       {
         startValue: 0,
-        endValue: 180,
+        endValue: 220,
         property: "rotateY"
       },
       {
         startValue: 0,
-        endValue: 180,
+        endValue: 330,
         property: "rotate"
       },
       {
         startValue: 0,
-        endValue: -150,
+        endValue: -190,
         property: "translateY"
       },
       {
         startValue: 0,
-        endValue: -50,
+        endValue: -90,
         property: "translateX"
       }
     ]
@@ -132,7 +137,7 @@ const parallaxMongo = [
   {
     start: "self",
     end: "self",
-    startOffset: "50vh",
+    startOffset: "55vh",
     endOffset: "60vh",
     properties: [
       {
@@ -206,15 +211,13 @@ const parallaxMySQL = [
         startValue: 0,
         endValue: -60,
         property: "skew"
+      },
+      {
+        startValue: 0,
+        endValue: -600,
+        property: "rotateX"
       }
     ]
-  },
-  {
-    start: "self",
-    end: "self",
-    startOffset: "65vh",
-    endOffset: "80vh",
-    properties: []
   }
 ];
 
@@ -289,12 +292,12 @@ const parallaxSass = [
     properties: [
       {
         startValue: 0,
-        endValue: 100,
+        endValue: 140,
         property: "rotateY"
       },
       {
         startValue: 0,
-        endValue: -50,
+        endValue: -90,
         property: "rotate"
       }
     ]
@@ -395,7 +398,7 @@ const parallaxVue = [
 export class Skills extends Component {
   render() {
     return (
-      <div className="skillsContainer" id="skills">
+      <div className="skillsContainer" name="skills">
         <h2 className="skillsContainer__header">Skills</h2>
 
         <div className="skillsContainer__icons">

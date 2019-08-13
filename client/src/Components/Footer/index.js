@@ -23,7 +23,7 @@ export class Footer extends Component {
             <a href="https://github.com/JoshTag">GitHub</a>
           </li>
           <li>
-            <a href={resume} target="_blank">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
