@@ -14,7 +14,7 @@ export class Main extends Component {
         <Hero />
         <section className="projects">
           <Fade bottom>
-            <h2 className="projects__header" id="projects">Projects</h2>
+            <h2 className="projects__header" name="projects">Projects</h2>
           </Fade>
           <WoW />
         </section>

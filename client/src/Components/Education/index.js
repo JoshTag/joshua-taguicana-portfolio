@@ -5,7 +5,7 @@ import "./Education.scss";
 export class ResumeEducation extends Component {
   render() {
     return (
-      <div className="education" id="education">
+      <div className="education" name="education">
         <Fade bottom>
           <h3 className="education__header">Education</h3>
         </Fade>
