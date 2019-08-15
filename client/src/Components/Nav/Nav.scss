@@ -3,6 +3,7 @@
 .navBar {
   height: 60px;
   background: $colour-black;
+  z-index: 1001;
 
   &__list {
     max-width: 400px;

@@ -8,7 +8,7 @@ export class App extends Component {
   render() {
     return (
       <>
-        <Headroom style={{ transition: "all .5s ease-in-out" }}>
+        <Headroom style={{ transition: 'all .5s ease-in-out', zIndex: 4 }}  >
           <Nav />
         </Headroom>
         <Main />

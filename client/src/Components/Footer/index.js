@@ -28,6 +28,9 @@ export class Footer extends Component {
             </a>
           </li>
           <li>
+            <a href="https://linkedin.com/in/joshua-taguicana/">LinkedIn</a>
+          </li>
+          <li>
             <a
               className="contact-info__email"
               href="mailto:joshtaguicana@gmail.com"
