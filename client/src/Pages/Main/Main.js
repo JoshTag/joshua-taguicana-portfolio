@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../../Components/Hero';
+import About from '../../Components/About'
 import Education from '../../Components/Education';
 import Skills from '../../Components/Skills';
 import Footer from '../../Components/Footer';
@@ -14,6 +15,7 @@ export class Main extends Component {
     return (
       <>
         <Hero />
+        <About />
         <section className="projects">
           <Fade bottom>
             <h2 className="projects__header" name="projects">Projects</h2>

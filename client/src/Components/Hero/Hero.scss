@@ -1,110 +1,19 @@
 @import '../../Styles/scss/Master';
 
 .hero {
-  background: radial-gradient(ellipse at bottom, #102846 0%, #031630 20%, #000000 100%);
+  background: radial-gradient(ellipse at bottom, #002047 0%, #031a3a 10%, #000000 100%);
   overflow: hidden;
-  height: 60vh;
+  height: 90vh;
   background-attachment: fixed;
   @include font-white;
-
-  @include tablet {
-    height: 90vh;
-  }
 
   &__header {
     width: 100%;
 
-
     &__svg {
       width: 70%;
       height: 80%;
-      margin: 15vh 14vw 0;
-
-    }
-  }
-
-
-  &__content {
-    padding: 65px 16px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @include tablet {
-      flex-direction: row;
-      padding: 150px 60px 0;
-      justify-content: space-between;
-    }
-
-    @include laptop {
-      width: 900px;
-      padding: 180px 0 0;
-      margin: 0 auto;
-    }
-
-    @include desktop {
-      width: 920px;
-      padding: 200px 0 0;
-      margin: 0 auto;
-    }
-
-    &__img {
-      object-fit: cover;
-      height: 150px;
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 30px;
-      z-index: 1;
-
-      @include tablet {
-        height: 190px;
-        width: 190px;
-        margin: 0;
-      }
-
-      @include tablet {
-        height: 230px;
-        width: 230px;
-        margin: 0;
-      }
-    }
-
-    &__text {
-
-      @include tablet {
-        display: flex;
-        flex-direction: column;
-        min-width: 450px;
-        max-width: 650px;
-      }
-      
-      &--name {
-        font-size: 2rem;
-        text-align: center;
-        margin-bottom: 15px;
-
-        @include tablet {
-          font-size: 3rem;
-        }
-
-        @include laptop {
-          font-size: 3.5rem;
-        }
-      }
-
-      &--bio {
-        font-size: 14px;
-        text-align: center;
-        padding: 0 16px;
-
-        @include tablet {
-          font-size: 16px
-        }
-
-        @include laptop {
-          font-size: 24px
-        }
-      }
+      margin: 20vh 14vw 0;
     }
   }
 }
