@@ -1,22 +1,28 @@
 @import '../../Styles/scss/Master';
 
 .hero {
-  background: radial-gradient(ellipse at bottom, #081b33 0%, #021022 30%, #000000 100%);
+  background: radial-gradient(ellipse at bottom, #102846 0%, #031630 20%, #000000 100%);
   overflow: hidden;
-  height: 575px;
+  height: 60vh;
+  background-attachment: fixed;
   @include font-white;
 
   @include tablet {
-    height: 650px;
+    height: 90vh;
   }
 
-  @include laptop {
-    height: 740px;
+  &__header {
+    width: 100%;
+
+
+    &__svg {
+      width: 70%;
+      height: 80%;
+      margin: 15vh 14vw 0;
+
+    }
   }
 
-  @include desktop {
-    height: 825px;
-  }
 
   &__content {
     padding: 65px 16px 0;
