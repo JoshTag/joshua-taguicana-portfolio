@@ -11,6 +11,11 @@ import './Main.scss'
 
 
 export class Main extends Component {
+
+  componentDidMount(){
+    console.log("Josh Was Here")
+  }
+
   render() {
     return (
       <>
@@ -20,8 +25,8 @@ export class Main extends Component {
           <Fade bottom>
             <h2 className="projects__header" name="projects">Projects</h2>
           </Fade>
-          <WoW />
           <ProjectSlayr />
+          <WoW />
         </section>
         <Skills id="skills"/>
         <Education id="education"/>

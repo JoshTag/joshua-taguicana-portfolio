@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../Projects.scss";
-import wowMockup from "../../../Assets/Images/desktop-screenshot.png";
+import wowMockup from "../../../Assets/Images/wow-mockup.png";
 import linklogo from "../../../Assets/Images/icons8-external-link-24.png";
 import Fade from "react-reveal/Fade";
 
@@ -33,11 +33,8 @@ export class ProjectWoW extends Component {
                 Warcraft Auctions is a site that helps players in World of
                 Warcraft make decisions on which items to buy on the auction
                 house through graphs which display price and quantity
-                infomation.  Created for my BrainStation capstone.
-              </p>
-              <h5 className="project__info__content__tech-title">Tech Stack</h5>
-              <p className="project__info__content__tech">
-                React.js, Node.js, Express.js, Heroku, mySQL, phpMyAdmin
+                infomation.  Created for my BrainStation capstone.  Tech involved with
+                this project are React.js, Node.js, Express.js, Heroku, mySQL, and phpMyAdmin.
               </p>
               <div className="project__info__content__links">
                 <a
