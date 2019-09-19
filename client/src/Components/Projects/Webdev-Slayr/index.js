@@ -31,7 +31,7 @@ export class ProjectSlayr extends Component {
               </h3>
               <p className="project__info__content__description">
                 Webdev-Slayr is a turn based game fighting game with a web developer theme.  
-                You start as a junior and go through the caves of code to fight your way through
+                You start as a junior dev and go through the caves of code to fight your way through
                 until you face the final super developer boss.  All assets were created by myself using sketch.
                 This project was created to teach myself Vue.js as well as sketch.
               </p>
