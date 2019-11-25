@@ -57,9 +57,14 @@
 
       &--image {
         height: 100%;
+        width: 300px;
 
         @include laptop {
-          height: 100%;
+          width: 450px;
+        }
+
+        @include desktop {
+          width: 500px;
         }
       }
     }
@@ -108,11 +113,12 @@
 
         @include laptop {
           font-size: 20px;
+          line-height: 30px
         }
       }
 
       &__links {
-        padding: 0 16px;
+        padding: 10px 16px 0;
 
         @include laptop {
           padding: 24px 16px;
@@ -178,7 +184,7 @@
   }
 }
 
-#project-reverse {
+.project-reverse {
   display: flex;
   flex-direction: column;
 

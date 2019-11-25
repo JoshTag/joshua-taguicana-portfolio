@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "../Projects.scss";
 import starwarsMockup from "../../../Assets/Images/starwars-mockup.png";
-// import linklogo from "../../../Assets/Images/icons8-external-link-24.png";
-import Fade from "react-reveal/Fade";
 
 export class ProjectStarwars extends Component {
   render() {
@@ -11,8 +9,7 @@ export class ProjectStarwars extends Component {
         <h3 className="project__header show_mobile">
           Star Wars Database (WIP)
         </h3>
-        <div className="project__info" id="project-reverse">
-          <Fade right>
+        <div className="project__info project-reverse">
             <div className="project__info__imageBox">
               {/* <a className="project__info__imageBox--link" href="#"> */}
                 <img
@@ -22,8 +19,6 @@ export class ProjectStarwars extends Component {
                 />
               {/* </a> */}
             </div>
-          </Fade>
-          <Fade left>
             <div className="project__info__content">
               <h3 className="project__info__content__header hide_mobile">
                 Star Wars Database (WIP)
@@ -65,7 +60,6 @@ export class ProjectStarwars extends Component {
                 </a>
               </div>
             </div>
-          </Fade>
         </div>
       </div>
     );

@@ -67,14 +67,19 @@
 
     &__text {
       @include font-black;
+      line-height: 25px;
+      text-align: center;
 
       @include tablet{
         width: 230px;
+        text-align: left;
+
       }
 
       @include laptop{
         font-size: 20px;
         width: 400px;
+        line-height: 30px;
       }
     }
   }

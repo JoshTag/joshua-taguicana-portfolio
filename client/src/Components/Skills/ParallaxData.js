@@ -1,7 +1,9 @@
 const parallaxCSS = [
   {
-    start: 1350,
-    end: 1600,
+    start: "self",
+    end: "self",
+    startOffset: "65vh",
+    endOffset: 950,
     properties: [
       {
         startValue: 0,
@@ -10,19 +12,13 @@ const parallaxCSS = [
       },
       {
         startValue: 0,
-        endValue: -100,
-        property: "translateY"
-      },
-      {
-        startValue: 0,
-        endValue: -100,
+        endValue: -200,
         property: "translateX"
       },
       {
-        startValue: "#0028c9",
-        endValue: "#fead7b",
-        property: "color",
-        unit: ""
+        startValue: 0,
+        endValue: -200,
+        property: "translateY"
       }
     ]
   }
@@ -30,23 +26,30 @@ const parallaxCSS = [
 
 const parallaxGit = [
   {
-    start: 1400,
-    end: 1800,
+    start: "self",
+    end: "self",
+    startOffset: "80vh",
+    endOffset: 1200,
     properties: [
       {
         startValue: 0,
-        endValue: -200,
+        endValue: -210,
         property: "rotate"
       },
       {
         startValue: 0,
-        endValue: -30,
-        property: "skewY"
+        endValue: -200,
+        property: "translateY"
+      },
+      {
+        startValue: 1,
+        endValue: 1,
+        property: "scale"
       },
       {
         startValue: 0,
-        endValue: -240,
-        property: "translateY"
+        endValue: -60,
+        property: "skewX"
       }
     ]
   }
@@ -54,23 +57,30 @@ const parallaxGit = [
 
 const parallaxHTML = [
   {
-    start: 1450,
-    end: 1550,
+    start: "self",
+    end: "self",
+    startOffset: "78vh",
+    endOffset: 1100,
     properties: [
       {
         startValue: 0,
-        endValue: 75,
+        endValue: 220,
         property: "rotateY"
       },
       {
         startValue: 0,
-        endValue: 120,
+        endValue: 330,
         property: "rotate"
       },
       {
         startValue: 0,
-        endValue: -100,
+        endValue: -190,
         property: "translateY"
+      },
+      {
+        startValue: 0,
+        endValue: -90,
+        property: "translateX"
       }
     ]
   }
@@ -78,28 +88,30 @@ const parallaxHTML = [
 
 const parallaxJS = [
   {
-    start: 1350,
-    end: 1700,
+    start: "self",
+    end: "self",
+    startOffset: "75vh",
+    endOffset: "100vh",
     properties: [
       {
         startValue: 0,
-        endValue: 15,
+        endValue: 20,
         property: "blur"
       },
       {
         startValue: 0,
-        endValue: 275,
+        endValue: 20,
         property: "translateX"
       },
       {
         startValue: 0,
-        endValue: -275,
-        property: "rotate"
+        endValue: -130,
+        property: "translateY"
       },
       {
         startValue: 0,
-        endValue: -75,
-        property: "translateY"
+        endValue: -360,
+        property: "rotate"
       }
     ]
   }
@@ -107,19 +119,23 @@ const parallaxJS = [
 
 const parallaxMongo = [
   {
-    start: 1400,
-    end: 1450,
+    start: "self",
+    end: "self",
+    startOffset: "55vh",
+    endOffset: "60vh",
     properties: [
       {
         startValue: 1,
-        endValue: 2.5,
+        endValue: 2,
         property: "scaleX"
       }
     ]
   },
   {
-    start: 1400,
-    end: 1550,
+    start: "self",
+    end: "self",
+    startOffset: "60vh",
+    endOffset: "70vh",
     properties: [
       {
         startValue: 1,
@@ -127,24 +143,31 @@ const parallaxMongo = [
         property: "scaleY"
       },
       {
+        startValue: 2,
+        endValue: 1,
+        property: "scaleX"
+      },
+      {
         startValue: 0,
-        endValue: 45,
+        endValue: -45,
         property: "rotate"
       }
     ]
   },
   {
-    start: 1500,
-    end: 1600,
+    start: "self",
+    end: "self",
+    startOffset: "65vh",
+    endOffset: "110vh",
     properties: [
       {
         startValue: 0,
-        endValue: -200,
+        endValue: -600,
         property: "translateY"
       },
       {
         startValue: 0,
-        endValue: 200,
+        endValue: -600,
         property: "translateX"
       }
     ]
@@ -153,39 +176,16 @@ const parallaxMongo = [
 
 const parallaxMySQL = [
   {
-    start: 1300,
-    end: 1700,
+    start: "self",
+    end: "self",
+    startOffset: "60vh",
+    endOffset: "100vh",
     properties: [
       {
         startValue: 0,
-        endValue: -45,
-        property: "skew"
-      },
-      {
-        startValue: 0,
-        endValue: -90,
-        property: "translateX"
-      }
-    ]
-  },
-  {
-    start: 1500,
-    end: 1700,
-    properties: [
-      {
-        startValue: 0,
-        endValue: -150,
+        endValue: -170,
         property: "translateY"
-      }
-    ]
-  }
-];
-
-const parallaxNode = [
-  {
-    start: 1300,
-    end: 1900,
-    properties: [
+      },
       {
         startValue: 0,
         endValue: -140,
@@ -193,7 +193,33 @@ const parallaxNode = [
       },
       {
         startValue: 0,
-        endValue: -275,
+        endValue: -60,
+        property: "skew"
+      },
+      {
+        startValue: 0,
+        endValue: -600,
+        property: "rotateX"
+      }
+    ]
+  }
+];
+
+const parallaxNode = [
+  {
+    start: "self",
+    end: "self",
+    startOffset: "70vh",
+    endOffset: 900,
+    properties: [
+      {
+        startValue: 0,
+        endValue: 140,
+        property: "translateX"
+      },
+      {
+        startValue: 0,
+        endValue: 275,
         property: "rotate"
       },
       {
@@ -203,7 +229,7 @@ const parallaxNode = [
       },
       {
         startValue: 0,
-        endValue: -365,
+        endValue: -360,
         property: "rotateX"
       }
     ]
@@ -212,8 +238,10 @@ const parallaxNode = [
 
 const parallaxReact = [
   {
-    start: 1300,
-    end: 1750,
+    start: "self",
+    end: "self",
+    startOffset: "45vh",
+    endOffset: "100vh",
     properties: [
       {
         startValue: 1,
@@ -241,35 +269,38 @@ const parallaxReact = [
 
 const parallaxSass = [
   {
-    start: 1300,
-    end: 1800,
+    start: "self",
+    end: "self",
+    startOffset: "65vh",
+    endOffset: "100vh",
     properties: [
       {
         startValue: 0,
-        endValue: 200,
-        property: "translateX"
-      }
-    ]
-  },
-  {
-    start: 1400,
-    end: 1800,
-    properties: [
+        endValue: 140,
+        property: "rotateY"
+      },
       {
         startValue: 0,
-        endValue: -150,
-        property: "translateY"
-      }
-    ]
-  },
-  {
-    start: 1350,
-    end: 1700,
-    properties: [
-      {
-        startValue: 0,
-        endValue: -50,
+        endValue: -90,
         property: "rotate"
+      }
+    ]
+  },
+  {
+    start: "self",
+    end: "self",
+    startOffset: "70vh",
+    endOffset: "100vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: -200,
+        property: "translateY"
+      },
+      {
+        startValue: 0,
+        endValue: 20,
+        property: "translateX"
       }
     ]
   }
@@ -277,24 +308,23 @@ const parallaxSass = [
 
 const parallaxVue = [
   {
-    start: 1300,
-    end: 2000,
+    start: "self",
+    end: "self",
+    startOffset: "60vh",
+    endOffset: "80vh",
     properties: [
       {
         startValue: 0,
         endValue: -365,
         property: "rotateY"
-      },
-      {
-        startValue: 0,
-        endValue: -45,
-        property: "skew"
       }
     ]
   },
   {
-    start: 1400,
-    end: 1800,
+    start: "self",
+    end: "self",
+    startOffset: "60vh",
+    endOffset: "120vh",
     properties: [
       {
         startValue: 0,
@@ -303,14 +333,41 @@ const parallaxVue = [
       },
       {
         startValue: 0,
-        endValue: 800,
+        endValue: 30,
         property: "translateX"
+      }
+    ]
+  },
+  {
+    start: "self",
+    end: "self",
+    startOffset: "80vh",
+    endOffset: "100vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: -365,
+        property: "rotateY"
+      }
+    ]
+  },
+  {
+    start: "self",
+    end: "self",
+    startOffset: "100vh",
+    endOffset: "120vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: -365,
+        property: "rotateY"
       }
     ]
   }
 ];
 
-export default {
+
+export {
   parallaxCSS,
   parallaxHTML,
   parallaxGit,

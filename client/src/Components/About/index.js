@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import headshot from "../../Assets/Images/joshua-headshot.jpg";
-import Fade from "react-reveal/Fade";
 import "./About.scss";
 
 export class About extends Component {
   render() {
     return (
       <section className="about">
-        <Fade bottom>
           <h2 className="about__header">About Me</h2>
-        </Fade>
-        <Fade bottom>
           <div className="about__content">
             <img
               className="about__content__img"
@@ -25,7 +21,6 @@ export class About extends Component {
               below!
             </p>
           </div>
-        </Fade>
       </section>
     );
   }

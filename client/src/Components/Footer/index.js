@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Footer.scss";
 import resume from "../../Assets/Resume/Joshua_Taguicana_Resume.pdf";
+// import github from "../../Assets/Dev Icons/github/github-original-white.svg";
 
 export class Footer extends Component {
   render() {
@@ -9,18 +10,12 @@ export class Footer extends Component {
         <div id="starsF" />
         <div id="starsF2" />
         <div id="starsF3" />
-        {/* <h2 className="footerContainer__header">Contact Me</h2>
-        <form className="footerContainer__form">
-          <input className="footerContainer__form--name" placeholder="Name" />
-          <textarea
-            className="footerContainer__form--message"
-            placeholder="Message me!"
-          />
-          <button className="footerContainer__form--button" onClick="">Submit</button>
-        </form> */}
         <ul>
           <li>
-            <a href="https://github.com/JoshTag">GitHub</a>
+            <a href="https://github.com/JoshTag">
+              {/* <img className="footer-icon" src={github} alt="git hub icon" /> */}
+              GitHub
+            </a>
           </li>
           <li>
             <a href={resume} target="_blank" rel="noopener noreferrer">
@@ -39,6 +34,7 @@ export class Footer extends Component {
             </a>
           </li>
         </ul>
+        <p className="footerCopyRight">&copy; 2019 Joshua Taguicana</p>
       </footer>
     );
   }
